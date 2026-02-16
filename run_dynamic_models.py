@@ -2,11 +2,11 @@ import os
 import joblib
 import pandas as pd
 
-from nhstt_dynamic.config import DynamicConfig
-from nhstt_dynamic.preprocessing import preprocess_dataframe, split_xy, assert_numeric_matrix
-from nhstt_dynamic.features_dynamic import PrecomputedDynamicNaming, get_feature_set_for_model
-from nhstt_dynamic.pipeline import build_elasticnet_logistic_pipeline, default_param_grid
-from nhstt_dynamic.evaluation import evaluate_dynamic_model, BootstrapConfig
+from NHS-TT-Dynamic-Prediction-Models.config import DynamicConfig
+from NHS-TT-Dynamic-Prediction-Models.preprocessing import preprocess_dataframe, split_xy, assert_numeric_matrix
+from NHS-TT-Dynamic-Prediction-Models.features_dynamic import PrecomputedDynamicNaming, get_feature_set_for_model
+from NHS-TT-Dynamic-Prediction-Models.pipeline import build_elasticnet_logistic_pipeline, default_param_grid
+from NHS-TT-Dynamic-Prediction-Models.evaluation import evaluate_dynamic_model, BootstrapConfig
 
 
 def infer_scale_columns(X: pd.DataFrame) -> list[str]:
