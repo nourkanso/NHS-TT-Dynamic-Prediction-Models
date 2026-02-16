@@ -4,7 +4,7 @@ This repository contains code for dynamic prediction models for NHS Talking Ther
 
 It complements the baseline-only models from a previous paper:
 
-- **Baseline models (Paper 1):** `https://github.com/nourkanso/NHS-TT-Baseline-Prediction-Models-`
+- **Baseline models (Paper 1):** `https://github.com/nourkanso/NHS-TT-Baseline-Prediction-Models`
 - **Dynamic models (Paper 2, this repository):** `https://github.com/nourkanso/NHS-TT-Dynamic-Prediction-Models`
 
 The two repositories are designed to be citable together:
