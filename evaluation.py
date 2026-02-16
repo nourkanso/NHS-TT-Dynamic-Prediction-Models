@@ -87,7 +87,6 @@ def evaluate_dynamic_model(
     plot_auc_optimism: bool = False,
 ) -> EvalOutputs:
     """
-    Paper 2 evaluation (aligned to Paper 1 correction style):
     - Nested bootstrap resampling (B=200) with tuning inside each bootstrap
     - Discrimination:
         * Harrell optimism correction for AUC (point estimate)
